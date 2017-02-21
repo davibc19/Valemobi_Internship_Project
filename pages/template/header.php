@@ -19,6 +19,7 @@
             $(document).ready(function ()
                 {
                     $('#listarMercadorias').DataTable();
+                    $('#listarOperacoes').DataTable();
                 });
             // FIM DA CRIAÇÃO
         </script>
@@ -34,7 +35,7 @@
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
                     <li><a href="../index/index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-tag"></span> Teste</a></li>
+                    <li><a href="../operacoes/view_operation.php"><span class="glyphicon glyphicon-tag"></span> Operações</a></li>
                 </ul>
             </div>
         </nav>

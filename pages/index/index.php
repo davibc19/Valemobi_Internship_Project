@@ -36,7 +36,7 @@ include '../template/header.php';
                             <td><?php echo $dadosMercadorias['preco'] ?></td>
                             <td><?php echo $dadosMercadorias['tipo_negocio'] ?></td>
                             <td width="20%">
-                                <a href="../operacoes/operation.php?id=<?php echo $codigoMercadoria ?>"><span class="glyphicon glyphicon-plus-sign"></span> Realizar <?php echo $dadosMercadorias['tipo_negocio'] ?></a>
+                                <a href="../operacoes/insert_operation.php?id=<?php echo $codigoMercadoria ?>"><span class="glyphicon glyphicon-plus-sign"></span> Realizar <?php echo $dadosMercadorias['tipo_negocio'] ?></a>
                             </td>
                         </tr>
                         <?php
