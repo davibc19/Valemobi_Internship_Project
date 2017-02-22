@@ -1,0 +1,15 @@
+{
+  "name": "Valemobi_Internship_Project",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
