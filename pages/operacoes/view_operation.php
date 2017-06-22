@@ -12,7 +12,6 @@ include '../template/header.php';
             <table id="listarOperacoes" class="table table-striped">
                 <thead>
                     <tr>
-                        <th>Id</th>
                         <th>Código da Mercadoria</th>
                         <th>Tipo da Mercadoria</th>
                         <th>Nome</th>
@@ -28,7 +27,6 @@ include '../template/header.php';
                     while ($dados = mysqli_fetch_assoc($query)) {
                         ?>  
                         <tr>
-                            <td width="1%"><?php echo $dados['id'] ?></td>
                             <td width="10%"><?php echo $dados['codigo'] ?></td>
                             <td><?php echo $dados['tipo_mercadoria'] ?></td>
                             <td><?php echo $dados['nome'] ?></td>
